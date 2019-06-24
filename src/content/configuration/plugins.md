@@ -14,9 +14,7 @@ T> 注意：本页面仅讨论使用插件，如果你有兴趣编写自己的�
 
 ## `plugins`
 
-`array`
-
-webpack 插件列表。例如，当多个 bundle 共享一些相同的依赖，`CommonsChunkPlugin` 有助于提取这些依赖到共享的 bundle 中，来避免重复打包。可以像这样添加：
+一组webpack插件。例如，DefinePlugin允许您创建可以在编译时配置的全局常量。这对于允许开发构建和发布构建之间的不同行为非常有用。
 
 ```js
 plugins: [
