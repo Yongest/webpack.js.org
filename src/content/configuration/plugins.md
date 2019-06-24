@@ -20,9 +20,9 @@ webpack 插件列表。例如，当多个 bundle 共享一些相同的依赖，`
 
 ```js
 plugins: [
-  new webpack.optimize.CommonsChunkPlugin({
-    ...
-  })
+  new webpack.DefinePlugin({
+      // Definitions...
+    })
 ]
 ```
 
